@@ -4,14 +4,14 @@ This is a header-only library with some of the most common design patterns imple
 
 ## Design guidelines in design-patterns-cpp14
 
-* Can assume variadic templates supported by your compiler.
+* Variadic templates compiler support assumed.
 * Use perfect forwarding and new features from C++11/14 when possible.
 * Prefer header only code, but it is not a must.
 
 ## Quality assurance
 
 * Code tested on last versions of gcc, clang and Visual Studio.
-* Test cases relationated with problems crossing boundaries of dynamic libraries.
+* Test cases related with boundary crossing of dynamic libraries.
 
 ## Contributing
 
